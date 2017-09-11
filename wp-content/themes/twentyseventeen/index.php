@@ -52,7 +52,6 @@ get_header(); ?>
             </button>',
 					'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'twentyseventeen' ) . ' </span>',
 				) );
-
 			else :
 
 				get_template_part( 'template-parts/post/content', 'none' );
